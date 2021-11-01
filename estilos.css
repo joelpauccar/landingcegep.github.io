@@ -1,0 +1,83 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+.bg-blue{
+	background: #214164;
+	color: #fff;
+	border-radius: 0
+}
+.formulario{
+	max-width: 480px; width: 100%; background: #fbf5e3
+}
+.bg-light{
+	background: #fff !important; border-bottom: 4px solid #ceb68a	
+}
+.form-check-label{
+	font-size: 11px
+}
+.form-control{
+	border: none;
+	background: none;
+	font-size: 14px;
+	border-radius: 0;
+	border-bottom: 1px solid #ceb68a;
+}
+.formulario h3{
+	font-weight: 600
+}
+.titulos {
+	font-size: 25px;
+	font-weight: bold;
+	color: #004f71;
+	margin-bottom: 15px
+}
+
+.navbar-nav li {
+	padding: 2px 1rem;
+	color: #004f71;	
+}
+.navbar li:last-child{
+	background: #004f71; color: #fff
+}
+.navbar-nav li a{
+	font-weight: 400; font-size: 18px; color: #323232
+}
+.navbar-nav li a:hover{
+	color: #004f71
+}
+.navbar-nav li:last-child a.nav-link{
+	color: #fff !important
+}
+
+.navbar-toggler {
+	border:1px solid #ccc; border-radius: 0
+}
+.navbar-toggler:focus{
+	outline: none
+}
+
+.redes a:first-child:after{
+	width: 2px; height: 20px; content: ""; display: inline-block; background: #ceb68a; vertical-align: middle;margin-left: 10px
+}
+.redes a{
+	padding: 0 5px
+}
+@media (max-width: 767px) {
+	.navbar-brand img{
+		max-width: 9rem
+	}
+	.titulos{
+		font-size: 16px
+	}
+	p{
+		font-size: 13px;
+	}
+	.navbar-nav li a{
+		font-size: 12px;
+		text-align: center
+	}
+}
+
+#convenios a{
+	color: #ceb68a
+}
